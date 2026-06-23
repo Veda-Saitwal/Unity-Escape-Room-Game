@@ -1,12 +1,12 @@
 # Unity Escape Room Game
 
-A 3D puzzle-based escape room game developed using Unity and C#. Players must explore the environment, collect clues, solve puzzles, unlock hidden objects, and enter the correct keypad code to escape before the timer runs out.
+A 3D puzzle-based escape room game developed using Unity and C#. Players must explore the room, collect clues, solve puzzles, unlock hidden objects, and enter the correct keypad code to escape before the timer runs out.
 
 ## Features
 - First-person player movement
 - Interactive objects and drawers
 - Hidden key collection system
-- Keypad-based puzzle
+- Keypad puzzle
 - Door unlocking and opening animation
 - Countdown timer
 - Puzzle-solving gameplay
@@ -18,17 +18,18 @@ A 3D puzzle-based escape room game developed using Unity and C#. Players must ex
 - Character Controller
 
 ## Gameplay
-The player starts inside a locked room and must search for clues, interact with objects, find a hidden key, solve a keypad puzzle, and unlock the exit door before the timer expires.
+The player starts inside a locked room and must search for clues, interact with objects, find a hidden key, solve the keypad puzzle, and unlock the exit door before the timer expires.
 
-## Project Structure
+## Controls
 
-Assets/
-├── Scripts/
-├── Scenes/
-├── Animations/
-├── Prefabs/
-├── Materials/
-└── UI/
+| Action | Key |
+|----------|------|
+| Move Forward | ↑ (Up Arrow) |
+| Move Backward | ↓ (Down Arrow) |
+| Move Left | ← (Left Arrow) |
+| Move Right | → (Right Arrow) |
+| Interact | Left Click |
+| Look Around | Mouse |
 
 ## Installation
 
@@ -38,23 +39,14 @@ Assets/
    ```
 
 2. Open the project in Unity Hub.
-3. Open the main scene from the Scenes folder.
-4. Press **Play** to run the game.
 
-## Controls
+3. Open the main scene from the `Assets/Scenes` folder.
 
-| Action | Key |
-|----------|------|
-| Move Forward | W |
-| Move Backward | S |
-| Move Left | A |
-| Move Right | D |
-| Interact | E |
-| Look Around | Mouse |
+4. Press **Play** to start the game.
 
-## Future Improvements
-- Multiple rooms and levels
-- Advanced puzzles
+## Future Enhancements
+- Additional rooms and levels
+- More challenging puzzles
 - Sound effects and background music
 - Hint system
 - Save and load functionality
